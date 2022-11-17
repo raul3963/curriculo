@@ -1,5 +1,6 @@
 {
   "name": "curriculo",
+  "homepage": "http://raul3963.github.io/curriculo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
