@@ -1,38 +1,138 @@
+/* BASE DA TELA */
+
 .App {
-  text-align: center;
+  line-height: 20px;
+  text-align: left;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#body {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* IMAGEM */
+
+#perfil {
+  margin: 1vh;
+  width: 31vh;
+  height: 31vh;
+  border: 1.5vh solid rgb(145, 162, 192);
+  border-radius: 100%;
+}
+
+/* ITENS ESPECIFICOS */
+
+a {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: large;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(54, 82, 168);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(54, 82, 168);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 6vh;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+/* DIVS E SEPARAÇÕES */
+
+#topInfo {
+  display: flex;
+  background-color: gray;
+  height: 30vh;
+  border-bottom: 1.5vh solid rgb(145, 162, 192);
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+}
+
+#topRightInfo{
+  color: white;
+  position: absolute;
+  right: 2vh;
+  margin-top: 3%;
+  text-align: end;
+  display: block;
+}
+
+.infotop{
+  text-align: end;
+  align-items: center;
+  justify-content: end;
+}
+
+#leftInfo {
+  width: 33%;
+  margin-right: 10%;
+}
+
+#centerInfo {
+  width: 40%;
+  background-color: #eeeeee;
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+}
+
+#centerInfo li {
+  margin-left: 15%;
+  line-height: 35px;
+}
+
+#rightInfo {
+  text-align: center;
+  width: 33%;
+  margin-left: 10%;
+}
+
+/* PARTES ESPECIFICAS */
+
+#rightSpan {
+  display: inline-grid;
+}
+
+.idiomas {
+  width: 100%;
+  line-height: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.idiomas b {
+  margin-left: 25%;
+  margin-right: auto;
+}
+
+.idiomas p {
+  margin-right: 25%;
+  margin-left: auto;
 }
