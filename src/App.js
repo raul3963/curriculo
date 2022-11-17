@@ -15,6 +15,7 @@ function App() {
         </div>
         <div id='topRightInfo'>
           <p className='infotop'><b>Raul Schmitz</b></p>
+          <p className='infotop'><b>16 anos</b></p>
           <p className='infotop'><b>Celular:</b> 47 99240-5669</p>
           <p className='infotop'><b>Email:</b> raulsc396@gmail.com</p>
         </div>
