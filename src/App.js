@@ -22,7 +22,7 @@ function App() {
       <div id="body">
         <div id="leftInfo">
           <h2>Formação Profissional</h2>
-          <p>Estou atualmente em busca de meu primeiro imprego nas areas de tecnologia. Mais especificamente, eu busco trabalhar com denvolvimento de sistemas</p>
+          <p>Estou em busca de meu primeiro imprego nas areas de tecnologia. Mais especificamente, eu busco trabalhar com denvolvimento de sistemas</p>
           <h2>Formação Academica</h2>
           <p>Atualmente estudante do ensino médio, 1° série em 2022.</p>
           <h2>Idiomas Conhecidos</h2>
