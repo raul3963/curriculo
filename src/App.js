@@ -23,31 +23,34 @@ function App() {
       <div id="body">
         <div id="leftInfo">
           <h2>Formação Profissional</h2>
-          <p>Estou em busca de meu primeiro imprego nas areas de tecnologia. Mais especificamente, eu busco trabalhar com denvolvimento de sistemas</p>
+          <p>Estou em busca de meu primeiro emprego na área de tecnologia. Mais especificamente, busco trabalhar com desenvolvimento de sistemas, softwares ou aplicações.</p>
           <h2>Formação Academica</h2>
           <p>Atualmente estudante do ensino médio, 1° série em 2022.</p>
-          <h2>Idiomas Conhecidos</h2>
+          <h2>Idiomas</h2>
           <span className='idiomas'>
-            <b>Portugues</b><p>Nativo</p>
+            <b>Português</b><p>Nativo</p>
           </span>
           <span className='idiomas'>
             <b>Ingles</b><p>Fluente</p>
           </span>
         </div>
         <div id="centerInfo">
-          <h2>Conhecimentos e Qualidades</h2>
-          <h4>Linguagens de programação</h4>
+          <h2>Conhecimentos</h2>
+          <h4>Linguagens de programação e Conhecimentos</h4>
           <li>ReactJS</li>
           <li>JavaScript</li>
           <li>HTML</li>
           <li>Flutter</li>
           <li>Python basico</li>
           <br />
-          <h4>Qualidades</h4>
-          <li>Aprendizado rapido</li>
-          <li>Boa logica de programação</li>
+          <li>Visual Studio Code</li>
+          <li>IntellJ</li>
+          <li>Android Studio</li>
         </div>
         <div id="rightInfo">
+          <h2>Qualidades</h2>
+          <li>Aprendizado rápido</li>
+          <li>Boa lógica de programação</li>
           <h2>Meus Projetos</h2>
           <span id="rightSpan">
             <a href="#" onClick={() => openInNewTab("https://github.com/raul3963")}>Meu GitHub</a>
@@ -55,7 +58,7 @@ function App() {
             <a href="#" onClick={() => openInNewTab("https://play.google.com/store/apps/details?id=com.flutter.seugasapp")}>Sua Gasolina</a>
             <a href="#" onClick={() => openInNewTab("https://play.google.com/store/apps/details?id=com.flutter.seufutebol")}>Seu Futebol</a>
           </span>
-          <p style={{textAlign: "center"}}>Em meu GitHub possui de forma publica todas as minhas aulas de HTML e ReactJS e Flutter</p>
+          <p style={{textAlign: "center"}}>Acesse meu GitHub para visualizar meus projetos e materiais de estudo</p>
         </div>
       </div>
     </div>

@@ -32,8 +32,8 @@
 /* ITENS ESPECIFICOS */
 
 a {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
   font-size: large;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 }
 
 h2 {
-  margin-top: 6vh;
+  margin-top: 5vh;
   text-align: center;
 }
 
@@ -111,6 +111,12 @@ p {
   text-align: center;
   width: 33%;
   margin-left: 10%;
+}
+
+#rightInfo li {
+  text-align: left;
+  margin-left: 15%;
+  line-height: 35px;
 }
 
 /* PARTES ESPECIFICAS */
