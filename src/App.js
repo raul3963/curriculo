@@ -57,6 +57,7 @@ function App() {
             <h4>Desenvolvido em Flutter</h4>
             <a href="#" onClick={() => openInNewTab("https://play.google.com/store/apps/details?id=com.flutter.seugasapp")}>Sua Gasolina</a>
             <a href="#" onClick={() => openInNewTab("https://play.google.com/store/apps/details?id=com.flutter.seufutebol")}>Seu Futebol</a>
+            <br />
             <a href="#" onClick={() => openInNewTab("https://github.com/raul3963/gestao_desenhos")}>Atualmente trabalhando neste projeto</a>
           </span>
         </div>
